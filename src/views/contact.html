@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <%- include ('partials/head.html')%>
+
+</head>
+<body>
+    
+    <%- include ('partials/navegation.html')%>
+
+    <div class="container p-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 offsed-md-4">
+            <div class="card">
+                <div class="card-head bg-dark text-white text-center p-4">
+                    <h3>Contact me</h3>
+                </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="form-group p-2">
+                            <input type="text" class="form-control"
+                            placeholder="Email">
+                        </div>
+                        <div class="form-group  p-2">
+                            <textarea name="" id=""class="form-control" cols="30" rows="10" placeholder="Message">
+                            </textarea>
+                        </div>
+
+                        <div class="form-group p-2 d-flex justify-content-center ">
+                            <button class="btn btn-primary btn-block ">
+                                Send message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include ('partials/footer.html')%>
+
+
+</body>
+</html>
